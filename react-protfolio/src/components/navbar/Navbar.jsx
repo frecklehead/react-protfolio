@@ -1,10 +1,22 @@
-import react from 'react';
+
 import styles from "./Navbar.module.css";
+import React, { useState } from 'react';
+
+import { getImageUrl } from '../../utilis';
 export const Navbar=()=>{
-  return <nav className={styles.navbar}>
+
+  const [menuOpen ,setMenuOpen]= useState(false);
+     return <nav className={styles.navbar}>
     <a href="#"  className={styles.title}>Portfolio</a>
     <div className={styles.menu}>
-      <ul className={styles.menuitems}>
+      <img
+      className={styles.menuBtn} 
+       src={menuOpen
+       ?getImageUrl("nav/menuIcon.png")
+      :getImageUrl("nav/2024-03-12_20-00.png")}
+      onClick={()=>setMenuOpen(!menuOpen)} alt="menu-button"/>
+      <ul className={`${styles.menuitems} ${menuOpen && styles.menuOpen }`} 
+      onClick={()=> setMenuOpen(false)}>
         <li>
           <a href="#about">About</a>
         </li>
