@@ -15,8 +15,10 @@ export const Navbar=()=>{
        ?getImageUrl("nav/menuIcon.png")
       :getImageUrl("nav/2024-03-12_20-00.png")}
       onClick={()=>setMenuOpen(!menuOpen)} alt="menu-button"/>
-      <ul className={`${styles.menuitems} ${menuOpen && styles.menuOpen }`} 
-      onClick={()=> setMenuOpen(false)}>
+      <ul
+          className={`${styles.menuitems} ${menuOpen && styles.menuOpen}`}
+          onClick={() => setMenuOpen(false)}
+        >
         <li>
           <a href="#about">About</a>
         </li>

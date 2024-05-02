@@ -56,14 +56,14 @@
 
   }
   .menuitems{
-   
+    display:none;
     flex-direction: column;
     align-items:center;
     gap:13px;
     border-radius: 10px;
     background: #225008
     ;
-    background: linear-gradient(0deg,#15521a,#053113 );
+    background: linear-gradient(0deg,#3e7a43,#053113 );
     padding: 24px 33px;
     box-shadow:0 0 4px rbga(0,0,0,0.25);
   }
