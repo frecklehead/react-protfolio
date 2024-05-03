@@ -12,7 +12,7 @@ export const Profile=()=>{
         <a href="mailto:prashamsa35np@gmail.com" className={styles.contact}>Contact Me</a>
         </div>
     
-        <img src={getImageUrl("profile/IMG_2513.png")} />
+        <img className={styles.profileimg}src={getImageUrl("profile/IMG_2513.png")} />
         <div className={styles.topblur}></div>
         <div className={styles.bottomblur}></div>
 
