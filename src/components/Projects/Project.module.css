@@ -1,0 +1,42 @@
+/* src/components/Project.module.css */
+.project-card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.project-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+}
+
+.project-info {
+  padding: 10px;
+}
+
+.project-title {
+  font-size: 1.5em;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.project-description {
+  font-size: 1em;
+  color: #666;
+}
+
+.project-link {
+  color: #1e90ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project-link:hover {
+  text-decoration: underline;
+}

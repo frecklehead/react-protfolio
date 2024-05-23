@@ -1,5 +1,5 @@
 import React from "react";
-import { getImageUrl } from "../../../utilis";
+import { getImageUrl } from "../../utilis";
 import styles from "./profile.module.css" 
 export const Profile=()=>{
   return <section className={styles.container}>

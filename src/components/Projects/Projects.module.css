@@ -1,0 +1,16 @@
+/* src/components/Projects.module.css */
+.container {
+  padding: 20px;
+  background-color:var(--color-bg);
+}
+
+.section-title {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
