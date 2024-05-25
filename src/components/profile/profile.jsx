@@ -2,7 +2,7 @@ import React from "react";
 import { getImageUrl } from "../../utilis";
 import styles from "./profile.module.css" 
 export const Profile=()=>{
-  return <section className={styles.container}>
+  return <section  id ="about" className={styles.container}>
     <div className={styles.content}> 
       <h1 className={styles.title}>Hi! I'm Prashamsa Aryal.</h1><p className={styles.description}>
         

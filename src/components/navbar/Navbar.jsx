@@ -12,8 +12,8 @@ export const Navbar=()=>{
       <img
       className={styles.menuBtn} 
        src={menuOpen
-       ?getImageUrl("nav/menuIcon.png")
-      :getImageUrl("nav/2024-03-12_20-00.png")}
+       ?getImageUrl("nav/2024-03-12_20-00.png")
+      :getImageUrl("nav/menuIcon.png")}
       onClick={()=>setMenuOpen(!menuOpen)} alt="menu-button"/>
       <ul
           className={`${styles.menuitems} ${menuOpen && styles.menuOpen}`}
@@ -26,7 +26,7 @@ export const Navbar=()=>{
           <a href="#exper">Experience</a>
         </li>
         <li>
-          <a href="#project">Projects</a>
+          <a href="#Pro">Projects</a>
         </li>
         <li>
           <a href="#contact">Contact</a>
@@ -36,3 +36,6 @@ export const Navbar=()=>{
   </nav>
   
 }
+
+
+
