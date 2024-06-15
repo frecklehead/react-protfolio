@@ -12,7 +12,8 @@ const projectsData = [
 ,link:"https://youtu.be/VtPlaFJdzNE" 
 ,Source:"https://github.com/frecklehead/Online-Marketplace"},
   { title: 'Ecllipses', description: 'An threejs based web app with visually appealing animations of ecllipes especially designed for kids where they can know anyhting about ecllipses where I contribured the Frontend Part creating a flipbook animation.' ,link:"https://github.com/frecklehead/SpaceApps",Source:""},
-  { title: 'MedicalBillEstimater', description: 'Using Linear regression model with ML model helps us to predict the medical charges of an individual based on his past history.',
+  { title: 'MLfrom Scratch", description: " created all algorithms from scratch',
+  Source:"https://github.com/frecklehead/ML-from-scratch"
  }
 ];
 
