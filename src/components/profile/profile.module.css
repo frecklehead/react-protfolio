@@ -2,6 +2,7 @@
 @import "../../vars.css";
 
 .container {
+
   position: relative;
   display: flex;
   align-items: center;
@@ -21,7 +22,7 @@
 
 .title {
   font-size: 72px;
-  font-weight: 900;
+  font-weight: 90px;
   margin-bottom: 33px;
   font-family: var(--font-roboto);
   background: linear-gradient(
@@ -33,7 +34,9 @@
   -webkit-background-clip: text;
 }
 
+
 .description {
+  margin:auto;
   font-size: 2.5rem; /* More standard font size */
   font-family: var(--font-roboto);
   margin-bottom: 52px;
