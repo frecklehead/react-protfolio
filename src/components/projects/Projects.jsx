@@ -12,8 +12,11 @@ const projectsData = [
 ,link:"https://youtu.be/VtPlaFJdzNE" 
 ,Source:"https://github.com/frecklehead/Online-Marketplace"},
   { title: 'Ecllipses', description: 'An threejs based web app with visually appealing animations of ecllipes especially designed for kids where they can know anyhting about ecllipses where I contribured the Frontend Part creating a flipbook animation.' ,link:"https://github.com/frecklehead/SpaceApps",Source:""},
-  { title: 'MLfrom Scratch", description: " created all algorithms from scratch',
+  { title: "ML from Scratch", description: " Created all algorithms from scratch",
   Source:"https://github.com/frecklehead/ML-from-scratch"
+ },
+ { title: "Movie Recommender App", description: "Recommend you what to watch next based on 10000 movie dataset, made using steamlit",
+  Source:"https://x.com/aryal_prashamsa/status/1808559331392245829"
  }
 ];
 
